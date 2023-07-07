@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/ben.js"></script>
+
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/ben-pc.css">
+    <link rel="stylesheet" href="./css/ben-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>BEN&JERRY'S</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top pc">
+            <header id="headertop pc">
+                <nav class="rightmenu pc">
+                    <ul>
+                        <li class="searchimg">
+                            <a href="#">
+                                <img src="./img/search.svg" alt="검색창 이미지">
+                            </a>    
+                        </li>
+                        <li class="nationclick">
+                            <div class="nationSelect">
+                            <img src="./img/korea.svg" alt=""><p>대한민국</p><span class="arrow"></span>
+                            </div>
+                            <ul class="nationList">
+                                <li>
+                                    <a href="#">
+                                        <img src="./img/AT.png" alt=""><p>오스트리아</p>
+                                    </a></li>
+                                <li><a href="#"><img src="./img/AU.png" alt=""><p>호주</p></a></li>
+                                <li><a href="#"><img src="./img/BE.png" alt=""><p>벨기에</p></a></li>
+                            </ul>
+                        
+                        </li>
+                    </ul>
+                </nav>
+                <div class="logoarea pc">
+                    <h1>
+                        <a href="./mainpage.html">
+                            <img src="./img/logo.svg" alt="벤앤제리스 로고 이미지">
+                        </a>
+                    </h1>
+                </div>
+                <nav class="mainmenu pc">
+                    <ul class="firmainmenu">
+                        <li><a href="./sub1-icecream.html">아이스크림</a>
+                            <ul class="firmain1">
+                                <li><a href="./sub1-icecream.html">아이스크림</a></li>
+                                <li><a href="#">아이스크림을 만드는 방법</a></li>
+                                <li><a href="#">맛의 무덤</a></li>
+                                <li><a href="#">맛 전문가들</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">가치관</a>
+                            <ul class="firmain2">
+                                <li><a href="#">브랜드를 운영하는 방법</a></li>
+                                <li><a href="#">벤 앤 제리스 재단</a></li>
+                                <li><a href="#">벤 앤 제리스의 사회 활동</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">회사소개</a>
+                            <ul class="firmain3">
+                                <li><a href="#">문의</a></li>
+                                <li><a href="#">우리가 비즈니스를 하는 곳</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">새로운 소식</a>
+                        </li>
+                        <li><a href="#">매장위치 찾기</a></li>
+                        <li><a href="#">FFF</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>       
+        <!-- <div class="top mo">
+            <header id="headertop mo">
+                <nav class="rightmenu mo">
+                    <ul>
+                        <li class="searchimg">
+                            <a href="#">
+                                <img src="./img/search.svg" alt="검색창 이미지">
+                            </a>    
+                        </li>
+                        <li class="nationclick">
+                            <div class="nationSelect">
+                               <h1>LANG</h1>
+                            </div>
+                            <ul class="nationList">
+                                <li>
+                                    <a href="#">
+                                        <img src="./img/AT.png" alt=""><p>오스트리아</p>
+                                    </a></li>
+                                <li><a href="#"><img src="./img/AU.png" alt=""><p>호주</p></a></li>
+                                <li><a href="#"><img src="./img/BE.png" alt=""><p>벨기에</p></a></li>
+                            </ul>
+                          
+                        </li>
+                    </ul>
+                </nav>
+                <div class="logoarea mo">
+                    <h1>
+                        <a href="#">
+                            <img src="./img/logo.svg" alt="벤앤제리스 로고 이미지">
+                        </a>
+                    </h1>
+                </div>
+                <nav class="mainmenu mo">
+                    <ul class="firmainmenu">
+                        <li><a href="#">아이스크림</a>
+                            <ul class="firmain1">
+                                <li><a href="#">아이스크림</a></li>
+                                <li><a href="#">아이스크림을 만드는 방법</a></li>
+                                <li><a href="#">맛의 무덤</a></li>
+                                <li><a href="#">맛 전문가들</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">가치관</a>
+                            <ul class="firmain2">
+                                <li><a href="#">브랜드를 운영하는 방법</a></li>
+                                <li><a href="#">벤 앤 제리스 재단</a></li>
+                                <li><a href="#">벤 앤 제리스의 사회 활동</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">회사소개</a>
+                            <ul class="firmain3">
+                                <li><a href="#">문의</a></li>
+                                <li><a href="#">우리가 비즈니스를 하는 곳</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">새로운 소식</a>
+                        </li>
+                        <li><a href="#">매장위치 찾기</a></li>
+                        <li><a href="#">FFF</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>       -->
+        
+        <main>
+            <div class="topbanner">
+                <section class="firstbanner">
+                    <h1 class="firbh1">NEW</h1>
+                    <h1 class="firbh1">KARAMEL</h1>
+                    <h1 class="bannerh1">SUTRA<i>CORE</i></h1>
+                    <img class="mobilefir" src="./img/firstbannersutra.png" alt="카라멜수트라 아이스크림">
+                </section>
+            </div>  
+            <div class="topbanner2">
+                <section class="secbanner"> 
+                    <div class="allbox">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                    <h1 class="brownborder">WE HAVE</h1>
+                    <h1 class="brown">VARIOUS</h1>
+                    <h1 class="brownborder">FLAVORS</h1>
+                    <h1 class="brown">FOR YOU</h1>
+                    <img class="banner2img"src="./img/chocoimg.png" alt="초콜릿 사진">
+                    <section class="banner2p">
+                        <p>지금은 세계 어디서나 벤 앤 제리스의 알록달록한 파인트를<br>
+                            만날 수 있지만, 예전에는 버몬트주 벌링턴에 있던 스쿱 매장에서<br>
+                            컵이나 콘 형태로만 벤 앤 제리스를 맛볼 수 있었습니다.<br> 
+                            그러던 중 벤이 벤 앤 제리스만의 특별한 아이스크림을 소매점에서도<br> 
+                            판매할 수 있도록 파인트 사이즈로 포장할 천재적인 방법을 떠올렸죠.<br> 
+                            그 후 이야기는 역사로 남아있습니다!
+                        </p>
+                        <p>
+                            우리는 지금도 벤 앤 제리스의 상징이 된 환상적인<br>  
+                            청크 앤 스월을 16온스 통에 가득 담아 보내고 있습니다.
+                        </p>
+                    </section>
+                </section>
+            </div>
+            <div class="mainicecon">
+                <div class="topbanner3">
+                    <img class="topbanner3bg" src="./img/icebanner01.png" alt="아이스크림 배경">
+                    <img class="topb3img topb3i1" src="./img/icebannercup1.png" alt="아이스크림 이미지">
+                    <img class="topb3img topb3i2" src="./img/icebannercup2.png" alt="아이스크림 이미지">
+                    <img class="topb3img topb3i3" src="./img/icebannercup3.png" alt="아이스크림 이미지">
+                </div>    
+                <div class="icecon1">
+                    <section class="iceproduce">
+                        <h1 class="htitlestyle">ICE CREAM</h1>
+                        <ul class="iceproul">
+                            <li class="iceproli1">
+                                <h1>NEW ! </h1>
+                                <img class="iceproimg" src="./img/mainkaramel.png" alt="카라멜수트라 아이스크림 이미지">
+                                <p class="font32">퍼지 칩과 부드러운 카라멜이 들어있는<br> 
+                                    초콜릿 & 카라멜 아이스크림</p>
+                                <img class="sutrapt" src="./img/karamelsutrapt.svg" alt="카라멜수트라 폰트체">
+                            </li>
+
+                            <li class="iceproli2">
+                                <img class="iceproimg" src="./img/mainchip.png" alt="초콜릿칩쿠키도우 아이스크림 이미지">
+                                <section>
+                                    <p class="font32">초콜릿 칩 쿠키 도우의<br> 
+                                    퍼지 덩어리가 들어간<br> 
+                                    바닐라 아이스크림
+                                    </p>                                    
+                                </section>
+                                <img class ="chocopt" src="./img/chocochippt.svg" alt="초콜릿칩쿠키도우">
+                            </li>
+
+                            <li class="iceproli3">
+                                <img class="iceproimg" src="./img/mainchunky.png" alt="청키몽키 아이스크림 이미지">
+                                <section>
+                                    <p class="font32">
+                                        호두 퍼지 덩어리가<br>
+                                        들어간 바나나 아이스크림 
+                                    </p>
+                                </section>
+                                <img class="chunkypt" src="./img/chunkypt.svg" alt="청키몽키 폰트 이미지">
+                            </li>
+                            <li class="iceproli4">
+                                <img class="fingerpoint" src="./img/point.png" alt="손가락 이미지">
+                                <a href="./sub1-icecream.html"><img class="more" src="./img/more.png" alt="더보기 이미지"></a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="stdecon">
+                        <h1 class="htitlestyle">STORE & DELIVERY </h1>
+                        <a href="./sub2-store.html">
+                            <ul>
+                                <li class="astore">
+                                    <section>
+                                        <h1 class="search">가까운 매장 찾기</h1>
+                                        <p>가까운 매장에서 다양한 맛을 즐겨보세요!</p>
+                                    </section>    
+                                </li>
+                                <li class="adelivery">
+                                    <section>
+                                        <h1>배달 어플로 주문하기</h1>
+                                        <p>나만의 장소에서 달콤한 시간을 가져보세요!</p>
+                                    </section>   
+                                </li>
+                            </ul>
+                        </a>
+                    </section>
+                </div>
+                <div class="fbanner1">
+                    <section>
+                        <h1>HAVE</h1><img class="icewithpt1" src="./img/icewithpt.png" alt="아이스크림 이미지"><h1>A</h1>
+                        <h1>SWEET</h1><img class="icewithpt2" src="./img/icewithpt2.png" alt="아이스크림 이미지"><h1>DAY</h1>
+                    </section>
+                </div>  
+                <div class="fbanner2">
+                    <div class="spiral">
+                        <!-- <img src="./img/footchoco.png" alt="아이스크림 이미지"> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1875 701.07"><g id="Layer_2" data-name="Layer 2"><g id="layout"><path class="spiralPath" id="sprialPath" d="M1173.49,354c15.22-146.45-91.16-277.5-237.61-292.72-153.79-16-291.42,95.74-307.4,249.54C611.7,472.28,729,616.81,890.54,633.59c169.61,17.63,321.4-105.59,339-275.2,18.51-178.13-110.89-337.53-289-356C753.48-17.09,586.08,118.8,566.64,305.87c-20.41,196.45,122.3,372.25,318.75,392.66C1091.7,720,1276.32,570.1,1297.76,363.79c0,0-2.26-41.56,57.74-40.56s519.5,0,519.5,0"/></g></g>
+                            <image width="520" height="410" transform="translate(658 128.42)" xlink:href="./img/footchoco.png" />
+                            <text>
+                                <textPath href="#sprialPath" startOffset="0" id="textP">
+                                    KARAMEL SUTRA CORE  ·   NEW YORK SUPER FUDGE CHUNK  ·   MINT CHOCOLATE COOKIE  ·   VANILLA  ·   CHUNKY MONKEY  ·   CHERRY GARCIA  ·   CHOCOLATE CHIP COOKIE  ·    CHOCOLATE FUDGE BROWNIE  ·   COFFEE COFFEE BUZZ BUZZ BUZZ  ·   TRIPLE CARAMEL CHUNK  ·   HALF BAKED
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    
+                </div>      
+            </div>
+            <a class="topbtn" href="#headertop">
+                <img src="./img/topbtn.png" alt="상단이동 이미지">
+            </a>
+        </main>
+        <footer>
+            <section class="fleft">
+                <ul>
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">개인정보보호정책</a></li>
+                    <li><a href="#">개인정보</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            </section>
+            <section class="fright">
+                <ul>
+                    <li><a href="#"><img src="./img/twtlogo.svg" alt="트위터 로고 이미지"></li>
+                    <li><a href="#"><img src="./img/facelogo.svg" alt="페이스북 로고 이미지"></a></li>
+                    <li><a href="#"><img src="./img/inslogo.svg" alt="인스타로고 이미지"></a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
